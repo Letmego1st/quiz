@@ -24,3 +24,11 @@ THEN I can save my initials and score
 
 
 
+
+
+
+Deploy:
+https://letmego1st.github.io/quiz/
+
+
+

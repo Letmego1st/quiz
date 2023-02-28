@@ -23,11 +23,26 @@ function printHighscores() {
     window.location.reload();
   }
   
-  document.getElementById("clear").onclick = clearHighscores;
+  //document.getElementById("clear").onclick = clearHighscores;
   
   // run function when page loads
   printHighscores();
-  / Write code to print all numbers from `num` down to 1
+  // Write code to print all numbers from `num` down to 1
 // You may assume `num` will be a positive number
 
 var countdown = function(num) {};
+let timerId;
+let timeLeft = 120;
+let timeEl = document.getElementById("time")
+let startButton = document.getElementById("startButton");
+startButton.onclick = startTheQuiz;
+console.log("script.js");
+function startTheQuiz() {
+  alert("The Quiz Has Started")
+  timerId = setInterval(intervalFunc, 1000);
+  timeEl.textContent = timeLeft;
+}
+function intervalFunc() {
+  timeLeft--;
+  timeEl.textContent = timeLeft;
+}

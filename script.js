@@ -14,7 +14,7 @@ function printHighscores() {
   
       // display on page
       var olEl = document.getElementById("highscores");
-      olEl.appendChild(liTag);
+      //olEl.appendChild(liTag);
     });
   }
   
@@ -33,7 +33,7 @@ function printHighscores() {
 var countdown = function(num) {};
 let timerId;
 let timeLeft = 120;
-let timeEl = document.getElementById("time")
+let timeEl = document.getElementById("time");
 let startButton = document.getElementById("startButton");
 startButton.onclick = startTheQuiz;
 console.log("script.js");
@@ -46,3 +46,4 @@ function intervalFunc() {
   timeLeft--;
   timeEl.textContent = timeLeft;
 }
+

@@ -30,10 +30,18 @@ THEN I can save my initials and score
 Deploy:
 https://letmego1st.github.io/quiz/
 
-references;
+
+
+
+
+References:
+
 Udemy 
+
 JavaScript for Beginners Learn by Doing Practical Exercises
+
 JavaScript - The Complete Guide 2023 (Beginner + Advanced)
+
 https://github.com/leolopez10/code-quiz 
 
 
